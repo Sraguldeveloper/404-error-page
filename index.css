@@ -1,0 +1,51 @@
+.heading{
+    text-align: center;
+    margin-top: 40px;
+}
+.desc{
+    margin-left: 320px;
+    font-weight: bolder;
+}
+.error{
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+    margin-top: 90px;
+}
+#first{
+    color:blue;
+}
+#second{
+    color:red;
+}
+#third{
+    color:darkcyan;
+}
+.page{
+    text-align: center;
+    margin-top: 30px;
+}
+.design-1{
+    position: absolute;
+    top:0px;
+    width: 150px;
+    height:100%;
+    background-color: blue;
+}
+.design-2{
+    position: absolute;
+    top:0px;
+    right:0px;
+    width: 150px;
+    height:100%;
+    background-color: rgb(226, 13, 13);
+}
+#first:hover{
+     transform: rotate(-60deg);
+}
+#third:hover{
+    transform: rotate(60deg);
+}
+#second:hover{
+    font-size: 100px;
+}
